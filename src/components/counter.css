@@ -1,0 +1,30 @@
+.img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.add , .sub , .big_count{
+    border: 1px solid #B24242;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add{
+    border-radius: 0px 5px 5px 0px;
+    background-color: #B24242;
+    color: white;
+}
+
+.sub{
+    border-radius: 5px 0px 0px 5px; 
+    background-color: white;
+    color:  #B24242;
+}
+.big_count{
+    color: #B24242;
+    background-color: #fbe9e9;
+    width: 30px;
+    scrollbar-width: 0px;
+}
